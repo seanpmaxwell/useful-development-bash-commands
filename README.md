@@ -16,5 +16,13 @@ Just a collection of useful commands to use in terminals (mac/linux) when coding
 ##### Undo all uncommitted changes and go back to last commit
 - `git reset HEAD --hard`
 
-##### Remove differences between main and branch 'A' from a third branch 'B'
-- Inside of *branch_b*: `git diff main branch_a | git apply -R`
+##### Remove differences between main and branch 'branch_A' from a third branch 'branch_B'
+- Inside of *branch_B*: `git diff main branch_A | git apply -R`
+
+
+---
+
+### Browser
+
+##### Freeze browser when trying to open tooltips/popups
+- `setTimeout(() => { debugger; }, 3000);`
