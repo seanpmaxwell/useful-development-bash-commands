@@ -19,7 +19,9 @@ Just a collection of useful commands to use in terminals (mac/linux) when coding
 ##### Remove differences between main and branch 'branch_A' from a third branch 'branch_B'
 - Inside of *branch_B*: `git diff main branch_A | git apply -R`
 
-
+##### List changed files between current branche and other branch
+- `git diff --name-only other_branch`
+  
 ---
 
 ### Browser
