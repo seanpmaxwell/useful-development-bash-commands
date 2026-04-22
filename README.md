@@ -5,22 +5,22 @@ Just a collection of useful commands to use in terminals (mac/linux) when coding
 
 ### Processes
 
-##### Terminate process running on a port (mac/linux)
-- Replace 3000 with the port the process is running on
-- `lsof -ti :3000 | xargs kill -9`
+##### `lsof -ti :"port number" | xargs kill -9` 
+- Terminate process running on a port (mac/linux, i.e. `lsof -ti :3000 | xargs kill -9`)
 
 ---
 
 ### Git
 
-##### Undo all uncommitted changes and go back to last commit
-- `git reset HEAD --hard`
+##### `git reset HEAD --hard` 
+- Undo all uncommitted changes and go back to last commit
 
-##### Remove differences between main and branch 'branch_A' from a third branch 'branch_B'
-- Inside of *branch_B*: `git diff main branch_A | git apply -R`
+##### `git diff "branch a" "branch b" | git apply -R` (inside of *"branch c"*)
+- Remove differences between branch a and b from the branch you a currently in
+- This is useful if you checkout c from b, when you mean to checkout c from a. 
 
-##### List changed files between current branche and other branch
-- `git diff --name-only other_branch`
+##### `git diff --name-only "other branch"` 
+- List changed files between current branch and another branch
   
 ---
 
