@@ -26,5 +26,6 @@ Just a collection of useful commands to use in terminals (mac/linux) when coding
 
 ### Browser
 
-##### Freeze browser when trying to open tooltips/popups
-- `setTimeout(() => { debugger; }, 3000);`
+##### `setTimeout(() => { debugger; }, 3000);` 
+- Freeze the browser after 3 seconds
+- Useful when trying inspect tooltips/popups in developer tools.
