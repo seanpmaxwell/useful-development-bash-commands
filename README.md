@@ -3,10 +3,13 @@ Just a collection of useful commands to use in terminals (mac/linux) when coding
 
 ---
 
-### Processes
+### Bash
 
 ##### `lsof -ti :"port number" | xargs kill -9` 
 - Terminate process running on a port (mac/linux, i.e. `lsof -ti :3000 | xargs kill -9`)
+
+#### `grep -r "test to search" "path/to/directory"`
+- Search by file contents
 
 ---
 
