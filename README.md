@@ -25,8 +25,7 @@ Just a collection of useful commands to use in terminals (mac/linux) when coding
 ##### `git diff --name-only "other branch"`
 - List changed files between current branch and another branch
 
-#### `git fetch origin <commit-hash>`
-#### `git checkout FETCH_HEAD`
+#### `git fetch origin <commit-hash> & git checkout FETCH_HEAD`
 - Try out some remote changes before they get merged in.
   
 ---
