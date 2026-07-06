@@ -22,8 +22,12 @@ Just a collection of useful commands to use in terminals (mac/linux) when coding
 - Remove differences between branch a and b from the branch you a currently in
 - This is useful if you checkout c from b, when you mean to checkout c from a. 
 
-##### `git diff --name-only "other branch"` 
+##### `git diff --name-only "other branch"`
 - List changed files between current branch and another branch
+
+#### `git fetch origin <commit-hash>`
+#### `git checkout FETCH_HEAD`
+- Try out some remote changes before they get merged in.
   
 ---
 
