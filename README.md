@@ -35,3 +35,10 @@ Just a collection of useful commands to use in terminals (mac/linux) when coding
 ##### `setTimeout(() => { debugger; }, 3000);` 
 - Freeze the browser after 3 seconds
 - Useful when trying inspect tooltips/popups in developer tools.
+
+---
+
+### System
+
+#### `system_profiler SPUSBDataType SPHardwareDataType SPSoftwareDataType -detailLevel full > ~/Desktop/system_report.txt`
+- Send machine and operating system info to a text file
